@@ -6,10 +6,14 @@ Here is our team :
 ![FlameGuard (1)](https://github.com/YanikaD/FlameGuardDispatch/assets/72496335/0c303262-64a9-4f33-838e-a5e5d66e9501)
 
 # Introduction
-Our innovation aims to 
-1.Facilitate fire departments and local people in California to investigate the route and estimate the distance from fire stations to fire locations.
-2. Plan and transfer victims to hospitals nearby. 
+Our innovation aims to:
+
+1. Facilitate fire departments and local people in California to investigate the route and estimate the distance from fire stations to fire locations.
+
+2. Plan and transfer victims to hospitals nearby.
+   
 3. Analyze the severity of fire events such as hotspot locations and then visualize them in Dashboard.
+   
 ![FlameGuard](https://github.com/YanikaD/FlameGuardDispatch/assets/72496335/85573888-ddcc-4cad-b8a9-c76bac9f00d2)
 
 ## Study area
