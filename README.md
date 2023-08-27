@@ -24,7 +24,7 @@ The presentation slide is here :
 
 
 ### Step 3: Chemical distribution trend
-
+In this part, provided dashboard to present the chemical from the combustion in California.
 
 
 ## Solution
