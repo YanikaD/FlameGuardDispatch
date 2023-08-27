@@ -89,14 +89,12 @@ In this part, provided a dashboard to present the chemical from the combustion i
 
 <b>Response</b>
 
-
+From this platform, the user can report the fire location to notice the firefighter and also can help the ambulance to find the nearest route from the fire accident to hospital.
 
 ### 2. Post-Fire events
 
 <b>Response</b>
-
-
-<b>Recovery</b>
+The effect and particular analysis parts of the platform can help the government, organization and normal people to manage the situation of fire. Moreover, they can see the effect of wildfire not only in agriculture and building but also their health because of the chemical particular from the burning.
 
 
 
