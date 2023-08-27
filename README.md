@@ -12,7 +12,9 @@ Our innovation aims to:
 
 2. Plan and transfer victims to hospitals nearby.
    
-3. Analyze the severity of fire events such as hotspot locations and then visualize them in Dashboard.
+3. Analyze the severity of fire events such as hotspot locations
+   
+4. Present the chemical from the combustion in California as time-series and spatial data then visualize them in Dashboard.
    
 ![FlameGuard](https://github.com/YanikaD/FlameGuardDispatch/assets/72496335/85573888-ddcc-4cad-b8a9-c76bac9f00d2)
 
