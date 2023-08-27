@@ -89,22 +89,25 @@ In this part, provided a dashboard to present the chemical from the combustion i
 
 <b>Response</b>
 
-From this platform, the user can report the fire location to notice the firefighter and also can help the ambulance to find the nearest route from the fire accident to hospital.
+Our innovation could help fire departments to manage faster routes from fire stations to fire events, and enable them to find the nearest hospitals for transferring victims. Moreover, our online responsive report form can gather real-time of fire events and firefighters can be able to reach there quickly.
 
 ### 2. Post-Fire events
 
 <b>Response</b>
-The effect and particular analysis parts of the platform can help the government, organization and normal people to manage the situation of fire. Moreover, they can see the effect of wildfire not only in agriculture and building but also their health because of the chemical particular from the burning.
 
+The effect and particular analysis parts of the platform can help the government, organization and normal people to manage the situation of fire. Moreover, they can see the effect of wildfire not only in agriculture and building but also their health because of the chemical particular from the burning.
 
 
 ## Limitations
 1. There are many lines of GeoJson format so when we added it into our script, it takes times.
 2. Many fire points from 2012-2023 so we needed to aggregate them all into 1 attribute in order to do a hotspot analysis of 11 years
-3. The dataset of Chemical gass from open sources are available only daily so we have to visualize them daily instead of yearly(212-2023).
-4. We could only deploy our web application locally at the moment.
-5. It took some time to do our data preparation since we have data formats shapefile, csv and geoJson.
-6. There is a difficulty of setting geoJson marker styles.
+3. The dataset of Chemical gass from open sources are available only daily so we have to visualize them daily instead of yearly(2012-2023).
+4. The dataset of Chemical gass from open sourecs are stored by 1 year/chemical/county so it quiet hard to download a bunch of data then we selected onl year 2022.
+5. We could only deploy our web application locally at the moment.
+6. It took some time to do our data preparation since we have data formats shapefile, csv and geoJson.
+7. There is a difficulty of setting geoJson marker styles.
+8. The version of Leaflet that can support routing function are quiet old. So, we have to use plain JavaScript.
+
 
 
 ## References
@@ -112,6 +115,7 @@ The effect and particular analysis parts of the platform can help the government
 2. NASA Air Quality Observations from Space: https://airquality.gsfc.nasa.gov
 3. https://www.100forms.com/ready-forms/report-an-issue-form/
 4. https://www.liedman.net/leaflet-routing-machine/
+5. Chemical data in CA: https://www.arb.ca.gov/aqmis2/aqdselect.php?tab=daily
 
 
 
