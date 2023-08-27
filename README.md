@@ -79,7 +79,7 @@ According to our analysis, Plumas, Humboldt, Mendocino, Butte and Shasta countie
 ![maphp](https://github.com/YanikaD/FlameGuardDispatch/assets/119694198/ec126174-e9c5-4502-96eb-76ccf7a46649)
 ![Screenshot (1304)](https://github.com/YanikaD/FlameGuardDispatch/assets/119694198/b433a153-90de-4d3a-85b2-8ef16efe8f09)
 
-### Step 4: Particular analysis
+### Step 4: Particulate analysis
 In this part, provided a dashboard to present the chemical from the combustion in California. the component can be selected to filter the data. The data is represented in timeseries and spatial.
 ![Untitled design](https://github.com/YanikaD/FlameGuardDispatch/assets/42495494/617524f5-cf1c-4a5f-8f54-a2963d893c5b)
 
