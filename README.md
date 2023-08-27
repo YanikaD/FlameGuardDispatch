@@ -12,11 +12,11 @@ Our innovation aims to:
 
 1. Facilitate fire departments and local people in California to investigate the route and estimate the distance from fire stations to fire locations.
 
-2. Plan and transfer victims to hospitals nearby.
+2. Plan and transfer victims to hospitals nearby in a timely manner.
    
-3. Analyze the severity of fire events such as hotspot locations
+3. Analyze the severity of fire events such as hotspot locations and number of active fires.
    
-4. Present the chemical from the combustion in California as time-series and spatial data then visualize them in Dashboard.
+4. Present the chemical gasses from the combustion in California as time-series and spatial data then visualize them in Dashboard.
    
 ![FlameGuard](https://github.com/YanikaD/FlameGuardDispatch/assets/72496335/85573888-ddcc-4cad-b8a9-c76bac9f00d2)
 
@@ -91,6 +91,8 @@ According to our analysis, Plumas, Humboldt, Mendocino, Butte and Shasta countie
 In this part, provided a dashboard to present the chemical from the combustion in California. the component can be selected to filter the data. The data is represented in timeseries and spatial.
 ![Untitled design](https://github.com/YanikaD/FlameGuardDispatch/assets/42495494/617524f5-cf1c-4a5f-8f54-a2963d893c5b)
 
+This platform , we utilized or downloaded all datasets from open-source websites such as California government website and NASA-FIRMS.
+
 ## Solution
 
 ### 1. During-Fire events
@@ -103,17 +105,17 @@ Our innovation could help fire departments to manage faster routes from fire sta
 
 <b>Response</b>
 
-The effect and particular analysis parts of the platform can help the government, organization and normal people to manage the situation of fire. Moreover, they can see the effect of wildfire not only in agriculture and building but also their health because of the chemical particular from the burning.
+The effect and gas emission analysis parts of the platform can help the government, organization and normal people to manage the situation of fire. Moreover, they can see the effect of wildfire not only in agriculture and building but also their health because of the burning chemicals.
 
 
 ## Limitations
 1. There are many lines of GeoJson format so when we added it into our script, it takes times.
 2. Many fire points from 2012-2023 so we needed to aggregate them all into 1 attribute in order to do a hotspot analysis of 11 years
-3. The dataset of Chemical gass from open sources are available only daily so we have to visualize them daily instead of yearly(2012-2023).
-4. The dataset of Chemical gass from open sourecs are stored by 1 year/chemical/county so it quiet hard to download a bunch of data then we selected onl year 2022.
+3. The dataset of Chemical gas from open sources are available only daily so we have to visualize them daily instead of yearly(2012-2023).
+4. The dataset of Chemical gas from open sourecs are stored as 1 year/chemical/county so it is quiet hard to download a bunch of data then we selected onl year 2022.
 5. We could only deploy our web application locally at the moment.
 6. It took some time to do our data preparation since we have data formats shapefile, csv and geoJson.
-7. There is a difficulty of setting geoJson marker styles.
+7. There is a difficulty in setting geoJson marker styles.
 8. The version of Leaflet that can support routing function are quiet old. So, we have to use plain JavaScript.
 
 
