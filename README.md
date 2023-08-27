@@ -1,3 +1,5 @@
+Please find the routing html file in 'Releases' section
+
 # ABOUT THE CHALLENGE 
 
 This repository is a part of our team's '<b>Flame Guard Dispatch</b>' submission for the Tech Optimum Hacks 2023 hackathon. 
