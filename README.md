@@ -8,9 +8,13 @@ The presentation slide is here :
 California, located on the western coast of the United States, boasts an incredibly diverse and picturesque landscape. Its geography includes coastal regions, towering mountains, vast deserts, fertile valleys, and lush forests. This diversity of terrain contributes to the state's rich ecological and cultural heritage.
 
 Coastal Regions: California's extensive coastline stretches for over 800 miles along the Pacific Ocean, offering stunning vistas and a temperate climate.
+
 Mountain Ranges: The Sierra Nevada mountain range runs along the eastern edge of the state, with peaks exceeding 14,000 feet. The coastal ranges also contribute to the state's topographical variety.
+
 Deserts: The southeastern part of California is characterized by desert landscapes, including the iconic Mojave Desert, known for its unique flora and otherworldly landscapes.
+
 Valleys: Fertile valleys, such as the Central Valley, are essential agricultural regions, producing a significant portion of the nation's fruits, vegetables, and nuts.
+
 Forests: California's forests, including the famous redwood and sequoia groves, are both awe-inspiring and ecologically vital.
 
 ## Problem
