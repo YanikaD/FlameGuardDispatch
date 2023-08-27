@@ -1,7 +1,12 @@
 # ABOUT THE CHALLENGE 
 
 This repository is a part of our team's '<b>Flame Guard Dispatch</b>' submission for the Tech Optimum Hacks 2023 hackathon. 
-The presentation slide is here : 
+Here is our team : 
+![FlameGuard (1)](https://github.com/YanikaD/FlameGuardDispatch/assets/72496335/0c303262-64a9-4f33-838e-a5e5d66e9501)
+
+# Introduction 
+![FlameGuard](https://github.com/YanikaD/FlameGuardDispatch/assets/72496335/85573888-ddcc-4cad-b8a9-c76bac9f00d2)
+
 
 ## Study area
 
@@ -29,6 +34,8 @@ Santa Ana Winds: These strong, dry winds originating from the desert can fan the
 **Urban-Wildland Interface**: California's expanding urban areas often interface with wildland areas, increasing the risk of fires encroaching on populated regions.
 
 **Human Activity**: Many wildfires are sparked by human activities, including power lines, discarded cigarettes, campfires, and equipment use. Accidental or intentional ignitions contribute to fire incidents.
+![Layout2](https://github.com/YanikaD/FlameGuardDispatch/assets/72496335/7448016b-f8f4-4d84-830a-098dfaf0dcd9)
+
 
 ## Methodology
 
