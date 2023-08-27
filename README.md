@@ -36,6 +36,10 @@ Santa Ana Winds: These strong, dry winds originating from the desert can fan the
 **Human Activity**: Many wildfires are sparked by human activities, including power lines, discarded cigarettes, campfires, and equipment use. Accidental or intentional ignitions contribute to fire incidents.
 ![mapfre](https://github.com/YanikaD/FlameGuardDispatch/assets/72496335/f4e51a6b-8050-4cb9-aeca-ec3dc96a7384)
 
+The summary of the type of fires in the region can be seen below:
+![Area burnt per incident type-2](https://github.com/YanikaD/FlameGuardDispatch/assets/72496335/9cceff05-c3c4-4ed1-9212-3131fadb0df3)
+
+
 ## Methodology
 ![FlameGuard (2)](https://github.com/YanikaD/FlameGuardDispatch/assets/72496335/1e2cb0c3-41c3-4897-a9d7-1aebc676fb12)
 
