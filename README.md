@@ -5,9 +5,12 @@ Here is our team :
 
 ![FlameGuard (1)](https://github.com/YanikaD/FlameGuardDispatch/assets/72496335/0c303262-64a9-4f33-838e-a5e5d66e9501)
 
-# Introduction 
+# Introduction
+Our innovation aims to 
+1.Facilitate fire departments and local people in California to investigate the route and estimate the distance from fire stations to fire locations.
+2. Plan and transfer victims to hospitals nearby. 
+3. Analyze the severity of fire events such as hotspot locations and then visualize them in Dashboard.
 ![FlameGuard](https://github.com/YanikaD/FlameGuardDispatch/assets/72496335/85573888-ddcc-4cad-b8a9-c76bac9f00d2)
-
 
 ## Study area
 
@@ -42,31 +45,52 @@ The summary of the type of fires in the region can be seen below:
 ## Methodology
 ![FlameGuard (2)](https://github.com/YanikaD/FlameGuardDispatch/assets/72496335/1e2cb0c3-41c3-4897-a9d7-1aebc676fb12)
 
-### Step 1: Routing and Reporting
+### Step 1: Spatial analysis by GIS tools
+The first step is an analysis of hotspots and active fire locations by using open-source datasets from NASA FIRMS https://firms.modaps.eosdis.nasa.gov/active_fire/. The fire point has an attribute of 'Brightness index' which represents temperature of fire in Kelvin, the fire derived from MODIS Sattellite resolution 1 km. And then summarize the active fire points into each county and visualize the map as choropleth maps. Moreover, we performed the analysis of Fire hotspot to see which area of California has been affected by fires often
+![FlameGuard (1)](https://github.com/YanikaD/FlameGuardDispatch/assets/119694198/ebce3228-8199-4c6f-9c4d-52b10922ffe5)
 
+### Step 2: Routing and Reporting
+### 2.1. Routing Machine: 
+This step utilizes 'Routing machine' leaflet library using JAVA Script code. Routing Machine library is typically used in applications that require mapping functionalities, such as GPS navigation apps, logistics and transportation management systems, location-based services. The library is built to handle complex routing scenarios, including multi-point routes, turn-by-turn directions, real-time traffic updates, and alternative route suggestions.
+![image](https://github.com/YanikaD/FlameGuardDispatch/assets/119694198/88b62dfd-4477-44d0-9409-115dd14251f9)
 
+By leveraging a Routing Machine library, we need to handle a variety of geographical data formats, including GeoJSON, shapefiles, in order to integrate with geographic data systems.
+Furthermore, we leverages this library to tailor the routing experience to the application that helps fire fighters planning the route when there is a fire event.
+To get started with Leaflet Routing Machine, we need to set the leaflet page with the following script:
+```
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+```
+Note: Before adding shapefile formats such as hospitals, hotspots, and boundaries, they need to be converted into GeoJson formats in order to work with this library. This step we converted them by using QGIS software.
 
-### Step 2: Effect 
+### 2.2. Online responsive report using HTML:
+This form allows people to report fire locations that happen around their locations. This platform can mitigate the severity of fires and the dangers of smokes, and it could extinguish quickly before they cause many effects. This form uses HTML code.
+![Screenshot (1305)](https://github.com/YanikaD/FlameGuardDispatch/assets/119694198/59b46bc5-bc7d-4510-b7c4-cc07f9dfdb96)
+
+### Step 3: Effect
+Fire events in California, particularly wildfires, can have a wide range of significant effects on the environment, communities, economy, and public health. These effects can be both immediate and long-term. Here are some of the key effects of fire events in California:
+Smoke and Air Pollution, Wildfire smoke can lead to poor air quality, causing respiratory problems and exacerbating existing health conditions. It can also affect visibility and lead to transportation disruptions.
+Health Impacts, People, especially those with respiratory issues, may experience health problems due to exposure to smoke and air pollutants.
+According to our analysis, Plumas, Humboldt, Mendocino, Butte and Shasta counties have the most effects from fires since these areas usually have fire occurrences repeatedly.
 ![mapfre](https://github.com/YanikaD/FlameGuardDispatch/assets/119694198/f10a6f5d-4f8c-410c-8e54-18cfeca03551)
-
 ![maphp](https://github.com/YanikaD/FlameGuardDispatch/assets/119694198/ec126174-e9c5-4502-96eb-76ccf7a46649)
 ![Screenshot (1304)](https://github.com/YanikaD/FlameGuardDispatch/assets/119694198/b433a153-90de-4d3a-85b2-8ef16efe8f09)
 
-
-
-### Step 3: Chemical distribution trend
-In this part, provided dashboard to present the chemical from the combustion in California.
-
+### Step 4: Chemical distribution trend
+In this part, provided a dashboard to present the chemical from the combustion in California.
 
 ## Solution
 
-### During-Disaster
+### 1. During-Fire events
 
 <b>Response</b>
 
 
 
-### Post-Disaster
+### 2. Post-Fire events
 
 <b>Response</b>
 
@@ -76,12 +100,20 @@ In this part, provided dashboard to present the chemical from the combustion in 
 
 
 ## Limitations
-
+1. There are many lines of GeoJson format so when we added it into our script, it takes times.
+2. Many fire points from 2012-2023 so we needed to aggregate them all into 1 attribute in order to do a hotspot analysis of 11 years
+3. The dataset of Chemical gass from open sources are available only daily so we have to visualize them daily instead of yearly(212-2023).
+4. We could only deploy our web application locally at the moment.
+5. It took some time to do our data preparation since we have data formats shapefile, csv and geoJson.
+6. There is a difficulty of setting geoJson marker styles.
 
 
 ## References
 1. United Nations Climate Change: https://di.unfccc.int/time_series
 2. NASA Air Quality Observations from Space: https://airquality.gsfc.nasa.gov
+3. https://www.100forms.com/ready-forms/report-an-issue-form/
+4. https://www.liedman.net/leaflet-routing-machine/
+
 
 
 
