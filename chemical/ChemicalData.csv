@@ -1,0 +1,31 @@
+county,lat ,lon,csv
+Alameda,37.81,-122.28,chemical/ALA_2022.csv
+Amador,38.34,-120.76,chemical/AMA_2022.csv
+Butte,39.76,-121.84,chemical/BUT_2022.csv
+Contra Costa,38.01,-121.64,chemical/CC_2022.csv
+El Dorado,38.89,-121,chemical/ED_2022.csv
+Fresno,36.79,-119.77,chemical/FRE_2022.csv
+Glenn,39.53,-122.19,chemical/GLE_2022.csv
+Humboldt,40.78,-124.18,chemical/HUM_2022.csv
+Imperial,32.68,-115.48,chemical/IMP_2022.csv
+Inyo,37.36,-118.33,chemical/INY_2022.csv
+Kern,35.33,-119,chemical/KER_2022.csv
+Kings,36.32,-119.64,chemical/KIN_2022.csv
+Lake,39.02,-122.91,chemical/LAK_2022.csv
+Los Angeles,34.07,-118.23,chemical/LA_2022.csv
+Madera,36.87,-120.01,chemical/MAD_2022.csv
+Marin,37.97,-122.52,chemical/MRN_2022.csv
+Mariposa,37.71,-119.71,chemical/MPA_2022.csv
+Mendocino,39.15,-123.2,chemical/MEN_2022.csv
+Merced,37.28,-120.43,chemical/MER_2022.csv
+Monterey,36.69,-121.62,chemical/MNT_2022.csv
+Nevada,39.23,-121.06,chemical/NEV_2022.csv
+Orange,33.83,-117.94,chemical/ORA_2022.csv
+Placer,38.75,-121.26,chemical/PLA_2022.csv
+Riverside,34,-117.42,chemical/RIV_2022.csv
+Sacramento,38.59,-121.5,chemical/SAC_2022.csv
+San Benito,36.84,-121.36,chemical/SBT_2022.csv
+San Bernardino,34.51,-117.33,chemical/SBD_2022.csv
+San Diego,32.79,-116.94,chemical/SD_2022.csv
+San Francisco,37.77,-122.43,chemical/SJ_2022.csv
+San Joaquin,37.96,-121.28,chemical/SF_2022.csv
