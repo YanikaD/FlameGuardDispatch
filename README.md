@@ -107,6 +107,16 @@ Our innovation could help fire departments to manage faster routes from fire sta
 
 The effect and gas emission analysis parts of the platform can help the government, organization and normal people to manage the situation of fire. Moreover, they can see the effect of wildfire not only in agriculture and building but also their health because of the burning chemicals.
 
+## Accomplishments that we're proud of
+There are 3 steps of our methods: 1. Performing spatial problem analysis using Geoinformatics tools.
+2. Creating an emergency route application using Javascript and HTML. 3. Developing dashboard that visualize the number of gas emission each county in California.
+
+-Utilizing a leaflet Javascript to create an application that can deal with real events.
+-Trying to use new libraries such as HighCharts.
+-Managed to fix the issue that was found on the code in time.
+-Fixed the problems about visualizing the layers because we have multiple lines of code so it was difficult to manage but we could fix it finally.
+
+Overall, we integrate the knowledge in the fields of Geoinformatics, earth observation and computer science altogether in these3 phases.
 
 ## Limitations
 1. There are many lines of GeoJson format so when we added it into our script, it takes times.
