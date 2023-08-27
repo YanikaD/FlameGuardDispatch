@@ -35,8 +35,6 @@ Santa Ana Winds: These strong, dry winds originating from the desert can fan the
 **Urban-Wildland Interface**: California's expanding urban areas often interface with wildland areas, increasing the risk of fires encroaching on populated regions.
 
 **Human Activity**: Many wildfires are sparked by human activities, including power lines, discarded cigarettes, campfires, and equipment use. Accidental or intentional ignitions contribute to fire incidents.
-![mapfre](https://github.com/YanikaD/FlameGuardDispatch/assets/72496335/f4e51a6b-8050-4cb9-aeca-ec3dc96a7384)
-
 The summary of the type of fires in the region can be seen below:
 ![Area burnt per incident type-2](https://github.com/YanikaD/FlameGuardDispatch/assets/72496335/9cceff05-c3c4-4ed1-9212-3131fadb0df3)
 
@@ -49,8 +47,10 @@ The summary of the type of fires in the region can be seen below:
 
 
 ### Step 2: Effect 
+![mapfre](https://github.com/YanikaD/FlameGuardDispatch/assets/119694198/f10a6f5d-4f8c-410c-8e54-18cfeca03551)
 
-
+![maphp](https://github.com/YanikaD/FlameGuardDispatch/assets/119694198/ec126174-e9c5-4502-96eb-76ccf7a46649)
+![Screenshot (1304)](https://github.com/YanikaD/FlameGuardDispatch/assets/119694198/b433a153-90de-4d3a-85b2-8ef16efe8f09)
 
 
 
