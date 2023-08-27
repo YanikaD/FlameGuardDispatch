@@ -2,6 +2,7 @@
 
 This repository is a part of our team's '<b>Flame Guard Dispatch</b>' submission for the Tech Optimum Hacks 2023 hackathon. 
 Here is our team : 
+
 ![FlameGuard (1)](https://github.com/YanikaD/FlameGuardDispatch/assets/72496335/0c303262-64a9-4f33-838e-a5e5d66e9501)
 
 # Introduction 
